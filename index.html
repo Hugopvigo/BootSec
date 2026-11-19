@@ -119,7 +119,7 @@
     box-shadow:inset 0 0 70px rgba(0,0,0,.95),inset 0 0 24px rgba(255,176,0,.06);
   }
 
-  .layer{position:absolute;inset:0;pointer-events:none}
+  .layer{position:absolute;inset:0;pointer-events:none;z-index:3}
   .bloom{
     background:radial-gradient(ellipse at 50% 48%, rgba(255,176,0,.12) 0%, rgba(255,176,0,.035) 55%, transparent 78%);
     animation:flicker 7s infinite ease-in-out;
@@ -145,7 +145,7 @@
     padding:clamp(12px,2vw,24px);
     overflow-y:auto;
     overflow-x:hidden;
-    font-size:clamp(12.5px,1.55vw,16px);
+    font-size:clamp(13px,1.6vw,16px);
     color:var(--amber);
     text-shadow:var(--glow);
     scrollbar-width:thin;
